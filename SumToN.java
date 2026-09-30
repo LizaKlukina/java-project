@@ -5,7 +5,7 @@ public class SumToN {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите N: ");
         int n = scanner.nextInt();
-
+//Комментарий
         int sum = 0;
         for (int i = 1; i <= n; i++) {
             sum += i;
